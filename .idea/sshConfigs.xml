@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="115.156.196.84" id="bc767dc5-7d7e-4c3a-aca1-401e00892361" keyPath="C:\Users\25536\Documents\NetSarang Computer\6\Xshell\Sessions\id_rsa_2048 (37)" port="43722" customName="#37" nameFormat="CUSTOM" username="jianbingwang">
+        <option name="customName" value="#37" />
+      </sshConfig>
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="222.20.76.249" id="1060b8a4-8758-4d94-8d37-4a0ba9d7a4f0" keyPath="C:\Users\25536\Documents\NetSarang Computer\6\Xshell\Sessions\id_rsa_2048(53+66)" port="45322" customName="#53" nameFormat="CUSTOM" username="wangjianbing">
+        <option name="customName" value="#53" />
+      </sshConfig>
+      <sshConfig host="222.20.76.249" id="49642a14-3611-4928-9bd1-0ae7971e8e92" keyPath="C:\Users\25536\Documents\NetSarang Computer\6\Xshell\Sessions\id_rsa_2048(53+66)" port="46622" customName="#66" nameFormat="CUSTOM" username="wangjianbing">
+        <option name="customName" value="#66" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>
