@@ -71,6 +71,7 @@ if __name__ == '__main__':
 	opt, _ = parser.parse_known_args()
 
 	opt.dataset = opt.dataset.upper()
+	opt.model = opt.model.lower()
 
 	print_options(parser, opt)
 	main()

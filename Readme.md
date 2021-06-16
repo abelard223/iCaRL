@@ -16,24 +16,30 @@ numpy
 
 PIL
 
+## Properties
 
+### model
+
+- alexnet
+- resnet for ResNet18
+
+### dataset
+
+- cifar100 for 10 tasks
+- cifar10 for 5 tasks
 
 ## run
 
 ```shell
-python -u main.py
+sh run.sh
+```
+
+```shell
+nohup python3 main.py --dataset CIFAR100 --model alexnet --gpu_id 0 &> alexnet_cifar100.txt &
+nohup python3 main.py --dataset CIFAR10 --model alexnet --gpu_id 1 &> alexnet_cifar10.txt &
+nohup python3 main.py --dataset CIFAR100 --model resnet --gpu_id 2 &> resnet_cifar100.txt &
+nohup python3 main.py --dataset CIFAR10 --model resnet --gpu_id 1 &> resnet_cifar10.txt &
 ```
 
 
 
-
-
-# Result
-
-Resnet18+CIFAR100
-
-
-
-| incremental step    | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9|
-| ------------------- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
-| iCaRL test accuracy | 83.8|77.81|74.332|71.244|68.252|64.788|61.756|58.588|56.546|54.108|
